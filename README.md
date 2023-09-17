@@ -23,6 +23,7 @@ Segmenting lidar data into meaningful components is a crucial step in many robot
 * cc_segmentation.py: The main script that performs segmentation given lidar points in polar coordinates.
 * test.py: A script that generates some random coordinates in polar coordinates, applies the algorithm and visualizes the results.
 * images/: Directory to store and generated visualization images.
+* txt_files/: Directory to store final symbolic image of the data in a txt file
 
 ## Results
 To showcase the flexibility of the implementation, random lidar points were generated in polar coordinates using the provided function. The generated points were then segmented using the connected components algorithm. The resulting segmentation highlighted different regions based on their connectivity, effectively separating clusters of lidar points. The visualization provided a clear representation of the algorithm's ability to identify connected components within the point cloud data.
